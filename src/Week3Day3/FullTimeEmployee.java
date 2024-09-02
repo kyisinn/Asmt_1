@@ -4,8 +4,8 @@ public class FullTimeEmployee extends Employee {
 	private double allowence;
 	private double bonus;
 	private static int count=0;
-	public FullTimeEmployee(String name,int employeeId,double basicSalary,double allowence, double bonus) {
-		super(name,employeeId,basicSalary);
+	public FullTimeEmployee(String name,double basicSalary,double allowence, double bonus) {
+		super(name,basicSalary);
 		this.allowence = allowence;
 		this.bonus = bonus;
 		count++;

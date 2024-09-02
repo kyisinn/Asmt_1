@@ -8,11 +8,11 @@ public class Employee {
 	public Employee() {
 		
 	}
-	public Employee(String name, int employeeId, double basicSalary) {
+	public Employee(String name,  double basicSalary) {
 		this.name = name;
-		this.employeeId = employeeId;
 		this.basicSalary = basicSalary;
-		count++;
+		++count;
+		this.employeeId= count;
 	}
 	public double calculateSalary() {
 		return this.basicSalary;

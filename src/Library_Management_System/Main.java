@@ -49,7 +49,7 @@ public class Main {
         	flag =br.readLine();
 		}while(flag.equalsIgnoreCase("yes"));
 		System.out.println();
-		System.out.println("Libray Inverntory: ");
+		System.out.println("Libray Invertory: ");
 		library.displayAllBooks();
 		
 	
